@@ -5,8 +5,11 @@ import requests
 from xml.etree import ElementTree as ET
 
 # URL of the sitemap
-sitemap_url = 'https://enlightenmenttreks.com.np/sitemap.xml'
+# sitemap_url = 'https://example.com/sitemap.xml'
 
+sitemap_url = 'your site map url'
+
+# this is the file you downloaded from google cloud
 JSON_KEY_FILE = "service_account_file.json"
 
 SCOPES = ["https://www.googleapis.com/auth/indexing"]
